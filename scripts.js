@@ -80,6 +80,7 @@ function MusicVideo(){
 
 function ridmv(){
     $('#video').empty();
+    $('body').append(contact);
     // $("body").children("#contact_email").remove();
 }
 
