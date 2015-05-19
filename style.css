@@ -20,12 +20,12 @@ body {
     background-attachment: scroll;
               /*position: center;*/
 
+    left:50%;
+	top:50%;
 }
 
 .mainwrapper {
     display:table;
-    left:50%;
-	top:50%;
 }
 
 .innerwrap {
