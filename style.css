@@ -24,6 +24,8 @@ body {
 
 .mainwrapper {
     display:table;
+    left:50%;
+	top:50%;
 }
 
 .innerwrap {
