@@ -21,14 +21,6 @@ body {
               /*position: center;*/
 }
 
-.mainwrapper {
-    display:table;
-}
-
-.innerwrap {
-    display:table-cell; 
-    vertical-align:middle;
-}
 
 #fakebody {
 	width:1050px;
