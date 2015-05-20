@@ -80,7 +80,7 @@ function MusicVideo(){
 
 function ridmv(){
     $('#video').empty();
-    $('body').append(contact);
+    // $('body').append(contact);
     // $("body").children("#contact_email").remove();
 }
 
@@ -103,6 +103,7 @@ function play_microphone(){
     $('#content').empty();
     $('#video').empty();
     $('#content').append(RebelSolo);
+    setTimeout(function () {$('#content').append(offair);}, 176000);
 }
 
 function pause_microphone(){
@@ -145,6 +146,7 @@ function play_stuck(){
     $('#content').empty();
     $('#video').empty();
     $('#content').append(stuckgraph);
+    setTimeout(function () {$('#content').append(offair);}, 131000);
 }
 
 function pause_stuck(){
@@ -187,6 +189,7 @@ function play_program(){
     $('#content').empty();
     $('#video').empty();
     $('#content').append(scene);
+    setTimeout(function () {$('#content').append(offair);}, 166000);
 }
 
 function pause_program(){
@@ -228,6 +231,7 @@ function play_mech(){
     $('#content').empty();
     $('#video').empty();
     $('#content').append(mechstuff);
+    setTimeout(function () {$('#content').append(offair);}, 247000);
 }
 
 function pause_mech(){

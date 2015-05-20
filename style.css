@@ -904,6 +904,12 @@ body {
     position: absolute;
 }
 
+#offair {
+    margin-top:-2px;
+    width:569px;
+    height:430px;
+}
+
 
 
 
