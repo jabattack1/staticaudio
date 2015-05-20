@@ -876,7 +876,7 @@ body {
 
 #rights {
     font-family: 'Belleza', Georgia, Times, serif;
-    color: #FFFFFF;
+    color: white;
     margin-left: 670px;
     margin-top: 610px;
     position: absolute;
@@ -890,7 +890,7 @@ body {
 
 #copyright {
     font-family: 'Cabin', Georgia, Times, serif;
-    color: black;
+    color: white;
     margin-left: 12px;
     margin-top: 2px;
     position: absolute;
@@ -898,7 +898,7 @@ body {
 
 #cred {
     font-family: 'Cabin', Georgia, Times, serif;
-    color: black;
+    color: white;
     margin-left: 12px;
     margin-top: 16px;
     position: absolute;
