@@ -28,8 +28,10 @@ var audioback ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/b
 var contactrunner ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/runner_zpsrjhxs93t.gif' class='animated fadeIn' id='contactrunner'>";
 var peterback ="<img src='http://www.animated-gifs.eu/leisure-music-equalizers/0045.gif' id='peterback'>";
 
+var timer;
 
 function home(){
+    clearTimeout(timer);
     $('#content').empty();
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -37,7 +39,7 @@ function home(){
 }
 
 function AudioBoy(){
-
+    clearTimeout(timer);
     $('#content').empty();
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -47,7 +49,7 @@ function AudioBoy(){
 }
 
 function PeterHahn(){
-
+    clearTimeout(timer);
     $('#content').empty();
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -58,7 +60,7 @@ function PeterHahn(){
 }
 
 function ContactInfor(){
-
+    clearTimeout(timer);
     $('#content').empty();
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -68,6 +70,7 @@ function ContactInfor(){
 }
 
 function MusicVideo(){
+    clearTimeout(timer);
     stuck.stop();
     program.stop();
     micro.stop();
@@ -79,12 +82,14 @@ function MusicVideo(){
 }
 
 function ridmv(){
+    clearTimeout(timer);
     $('#video').empty();
     // $('body').append(contact);
     // $("body").children("#contact_email").remove();
 }
 
 function play_microphone(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_microphone");
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_program");
@@ -103,10 +108,11 @@ function play_microphone(){
     $('#content').empty();
     $('#video').empty();
     $('#content').append(RebelSolo);
-    setTimeout(function () {$('#content').append(offair);}, 176000);
+    timer = setTimeout(function () {$('#content').append(offair);}, 176000);
 }
 
 function pause_microphone(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_microphone");
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -116,6 +122,7 @@ function pause_microphone(){
 }
 
 function stop_microphone(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_microphone");
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -128,6 +135,7 @@ function stop_microphone(){
 }
 
 function play_stuck(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_stuck");
     var audio1 = document.getElementById("audio_microphone");
     var audio2 = document.getElementById("audio_program");
@@ -146,10 +154,11 @@ function play_stuck(){
     $('#content').empty();
     $('#video').empty();
     $('#content').append(stuckgraph);
-    setTimeout(function () {$('#content').append(offair);}, 131000);
+    timer = setTimeout(function () {$('#content').append(offair);}, 131000);
 }
 
 function pause_stuck(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_stuck");
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -159,6 +168,7 @@ function pause_stuck(){
 }
 
 function stop_stuck(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_stuck");
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -171,6 +181,7 @@ function stop_stuck(){
 }
 
 function play_program(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_program");
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_microphone");
@@ -189,10 +200,11 @@ function play_program(){
     $('#content').empty();
     $('#video').empty();
     $('#content').append(scene);
-    setTimeout(function () {$('#content').append(offair);}, 166000);
+    timer = setTimeout(function () {$('#content').append(offair);}, 166000);
 }
 
 function pause_program(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_program");
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -202,6 +214,7 @@ function pause_program(){
 }
 
 function stop_program(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_program");
     program.stop();
     $("body").children("#contact_email").remove();
@@ -213,6 +226,7 @@ function stop_program(){
 }
 
 function play_mech(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_microphone");
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_program");
@@ -231,10 +245,11 @@ function play_mech(){
     $('#content').empty();
     $('#video').empty();
     $('#content').append(mechstuff);
-    setTimeout(function () {$('#content').append(offair);}, 247000);
+    timer = setTimeout(function () {$('#content').append(offair);}, 247000);
 }
 
 function pause_mech(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_microphone");
     $('#video').empty();
     $("body").children("#contact_email").remove();
@@ -244,6 +259,7 @@ function pause_mech(){
 }
 
 function stop_mech(){
+    clearTimeout(timer);
     var audio = document.getElementById("audio_microphone");
     $('#video').empty();
     $("body").children("#contact_email").remove();
