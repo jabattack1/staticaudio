@@ -47,10 +47,11 @@ SC.initialize({
 });
 
 // stream track id 293
-SC.stream('/tracks/219523506').then(function(sound){
-  program = sound;
+SC.stream('/tracks/219523506').then(function(player){
+  player.play();
 });
 </script>
+
 
 
 <script>
