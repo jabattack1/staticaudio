@@ -40,19 +40,30 @@
 <div id="logo_holder">
 </div>
 
-<script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+
+<script src="http://connect.soundcloud.com/sdk.js"></script>
 <script>
+
 SC.initialize({
   client_id: '7e1e5d50b5f91b20d6880ec7c8a19fd4'
 });
 
-// stream track id 293
-SC.stream('/tracks/219523506').then(function(player){
-  player.play();
+SC.stream("/tracks/219523506", function(sound){
+  program = sound;
+});
+
+SC.stream("/tracks/205687613", function(sound){
+  micro = sound;
+});
+
+SC.stream("/tracks/206934703", function(sound){
+  stuck = sound;
+});
+
+SC.stream("/tracks/205700677", function(sound){
+  mech = sound;
 });
 </script>
-
-
 
 <script>
 	$('#logo_holder').append(logo);
