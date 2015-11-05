@@ -136,9 +136,9 @@ function stop_microphone(){
 
 function play_stuck(){
     clearTimeout(timer);
-    // var audio = document.getElementById("audio_stuck");
-    // var audio1 = document.getElementById("audio_microphone");
-    // var audio2 = document.getElementById("audio_program");
+    var audio = document.getElementById("audio_stuck");
+    var audio1 = document.getElementById("audio_microphone");
+    var audio2 = document.getElementById("audio_program");
     $('#video').empty();
     $("body").children("#contact_email").remove();
     program.stop();
