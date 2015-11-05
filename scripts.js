@@ -146,7 +146,7 @@ function play_stuck(){
     micro.stop();
     mech.stop();
     stuck.play();
-    stuck.volume=100;
+    stuck.volume=1.0;
     $('#circle1').remove();
     $('#circle2').remove();
     $('#circle3').remove();
