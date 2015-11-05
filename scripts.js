@@ -145,7 +145,7 @@ function play_stuck(){
     // stuck.stop();
     micro.stop();
     mech.stop();
-    SC.stream();
+    stuck.stream();
     stuck.play();
 
     $('#circle1').remove();
