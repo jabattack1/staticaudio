@@ -8,7 +8,7 @@ var AudioBoyInfo ="<div id='gel'><h2 id='audiopeter' class='animated fadeIn'>Reb
 var PeterHahnInfo ="<div id='gel2'><h2 id='peterdo' class='animated fadeIn'>Peter Hahn = Songwriter/Producer/<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSinger/Musician</h2></div>";
 
 var contact ="<a href=\"mailto:peter.hahn@live.com\" class='animated fadeIn' id='contact_email'>peter.hahn@live.com</a>";
-var ContactInfo ="<div id='gel4'><h2 id='contactpeter' class='animated fadeIn'>551 689 3517</h2></div>";
+var ContactInfo ="<div id='gel4'><h2 id='contactpeter' class='animated fadeIn'>010-9633-0319</h2></div>";
 
 var MV ="<iframe width=\"660\" height=\"415\" class='animated slideInUp' src=\"https://www.youtube.com/embed/2MfEFwOjyHY\" frameborder=\"0\" allowfullscreen></iframe>";
 var headshot = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/phat_zpsnq9fh8qf.jpg' class='animated fadeIn' id='photo'>";
