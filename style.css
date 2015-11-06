@@ -111,7 +111,7 @@ body {
 #parental {
     position:absolute;
     margin-left: 350px;
-    margin-top: 467px;
+    margin-top: 474px;
 }
 
 #parentalsign {
@@ -625,13 +625,13 @@ body {
     font-family: 'Orbitron', Georgia, Times, serif;
     position:absolute;
     font-size: 15px;
-    margin-top: 43px;
+    margin-top: 50px;
     margin-left: 50px;
     color:white;
 }
 
 #play_stuck{
-    margin-top: 43px;
+    margin-top: 50px;
     margin-left:270px;
     position:absolute;
      -moz-border-radius: 5px;
@@ -648,7 +648,7 @@ body {
 }
 
 #pause_stuck{
-    margin-top: 43px;
+    margin-top: 50px;
     margin-left:300px;
     position:absolute;
      -moz-border-radius: 5px;
@@ -665,7 +665,7 @@ body {
 }
 
 #stop_stuck{
-    margin-top: 43px;
+    margin-top: 50px;
     margin-left:330px;
     position:absolute;
      -moz-border-radius: 5px;
@@ -689,13 +689,13 @@ body {
     font-family: 'Orbitron', Georgia, Times, serif;
     position:absolute;
     font-size: 15px;
-    margin-top:73px;
+    margin-top:80px;
     margin-left: 50px;
     color:white;
 }
 
 #play_microphone{
-    margin-top:73px;
+    margin-top:80px;
     margin-left:270px;
     position:absolute;
      -moz-border-radius: 5px;
@@ -712,7 +712,7 @@ body {
 }
 
 #pause_microphone{
-    margin-top:73px;
+    margin-top:80px;
     margin-left:300px;
     position:absolute;
      -moz-border-radius: 5px;
@@ -729,7 +729,7 @@ body {
 }
 
 #stop_microphone{
-    margin-top:73px;
+    margin-top:80px;
     margin-left:330px;
     position:absolute;
      -moz-border-radius: 5px;
@@ -753,14 +753,14 @@ body {
     font-family: 'Orbitron', Georgia, Times, serif;
     position:absolute;
     font-size: 15px;
-    margin-top: 103px;
+    margin-top: 110px;
     margin-left: 50px;
     color:white;
 }
 
 #play_mech{
     margin-left:270px;
-    margin-top: 103px;
+    margin-top: 110px;
     position:absolute;
     /*background-color: #ccc;*/
     -moz-border-radius: 5px;
@@ -786,7 +786,7 @@ body {
 
 #pause_mech{
     margin-left:300px;
-    margin-top: 103px;
+    margin-top: 110px;
     position:absolute;
      -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -803,7 +803,7 @@ body {
 
 #stop_mech{
     margin-left:330px;
-    margin-top: 103px;
+    margin-top: 110px;
     position:absolute;
      -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
