@@ -4,7 +4,7 @@ var flash = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/neon
 var logo ="<a href=\"/\" class='animated fadeIn' onClick=\"home();return false;\"><img src='http://i1301.photobucket.com/albums/ag119/jabattack1/audioboy2_cut_zpsjlmmln45.png' id='logo' class='animated slideInDown'></a>";
 var parental = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/parental-discretion-is-advised_zpsc1kipkd2.jpg' id='parental'>";
 
-var AudioBoyInfo ="<div id='gel'><h2 id='audiopeter' class='animated fadeIn'>Audio Boy = Rebel Solo</h2><h2 id='audiodo' class='animated fadeIn'>Audio Boy = Peter Hahn</h2>";
+var AudioBoyInfo ="<div id='gel'><h2 id='audiopeter' class='animated fadeIn'>Rebel Solo = Peter Hahn</h2>";
 var PeterHahnInfo ="<div id='gel2'><h2 id='peterdo' class='animated fadeIn'>Peter Hahn = Songwriter/Producer/<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSinger/Musician</h2></div>";
 
 var contact ="<a href=\"mailto:peter.hahn@live.com\" class='animated fadeIn' id='contact_email'>peter.hahn@live.com</a>";
