@@ -552,14 +552,14 @@ body {
     font-family: 'Orbitron', Georgia, Times, serif;
     position:absolute;
     font-size: 15px;
-    margin-top: 13px;
+    margin-top: 20px;
     margin-left: 50px;
     color:white;
 }
 
 #play_program{
     margin-left:270px;
-    margin-top: 13px;
+    margin-top: 20px;
     position:absolute;
     /*background-color: #ccc;*/
     -moz-border-radius: 5px;
@@ -585,7 +585,7 @@ body {
 
 #pause_program{
     margin-left:300px;
-    margin-top: 13px;
+    margin-top: 20px;
     position:absolute;
      -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -602,7 +602,7 @@ body {
 
 #stop_program{
     margin-left:330px;
-    margin-top: 13px;
+    margin-top: 20px;
     position:absolute;
      -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
